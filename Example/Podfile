@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'LKPlayerModuleCategory_Example' do
+  pod 'LKPlayerModuleCategory', :path => '../'
+
+  target 'LKPlayerModuleCategory_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
