@@ -1,0 +1,1252 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 26C6AB10F1B9E26B29F9702E223E6319 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01C695FFACB7E3CF02E4E541D46B904D /* CTMediator+LGPlayerModuleAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 587E9D9870DB7DC1439F0B82845748EC /* CTMediator+LGPlayerModuleAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EC69265082EFA1914B938306F64E257 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 086866648CD8DC0705AE707DCBBF7AFB /* Foundation.framework */; };
+		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C5E4739011D717E0A2F3BBB89D5AF8 /* UIApplication+StrictKeyWindow.m */; };
+		121439AB6B4061E1B6222256817548FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D36A4AF74A0E9F09B826AEE7992B29 /* XCTest.framework */; };
+		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 95CFDC301FC94033DAF9FBA40D699693 /* UIImage+Diff.m */; };
+		159F8413E2887A37C612FED4BC651394 /* Pods-LKPlayerModuleCategory_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC190FBCDF81D0225A3B8052FD8A9AD7 /* Pods-LKPlayerModuleCategory_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 2409E3355C56AEF23B1B0B406F76D95E /* UIImage+Compare.m */; };
+		2E4C0BD2363ABABB6470FBA5415985AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92692B14EA20932663E544E8BED37B8 /* QuartzCore.framework */; };
+		3B94BEF000168E07EAC82C7A25A21458 /* CTMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BE54518F5ED1186AEF8F1996239E0F2 /* CTMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CAF457DD1C5FDC4DCD144E3EC47879F /* Pods-LKPlayerModuleCategory_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2373129D6DCC7FB2D0BA0F757639E09 /* Pods-LKPlayerModuleCategory_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E92B098DED7538301BCEADAB778BDDB /* LKPlayerModuleCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C99B8BAE240E6AD125151B6837DEEAF0 /* LKPlayerModuleCategory-dummy.m */; };
+		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B4E52487576799EEA05BC99A3F6222CB /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4731D4CB78576EAD3C461B2602EEF905 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = A34FACC6667B09F327D7AB44CB4505EA /* CTMediator.m */; };
+		4F58E17DAF09A3035A146DDDDFEFE84B /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9398336CC0D05BCEC1ABCDA48B4460C5 /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6343ABE577A5F983E724C607CD973BB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 086866648CD8DC0705AE707DCBBF7AFB /* Foundation.framework */; };
+		69B61193218731833D94A63CD9010166 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 086866648CD8DC0705AE707DCBBF7AFB /* Foundation.framework */; };
+		6A3A726BA37ACDC43642F29A8E1B60BA /* CTMediator+HandyTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BCE32022BDBC52BD8442ADBA53EEAC5 /* CTMediator+HandyTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FE2E08249CFD7683F007FA564BA43C /* FBSnapshotTestCase-dummy.m */; };
+		7F6DE10E33BD76C9B226D73463E9AA8B /* CTMediator+HandyTools.m in Sources */ = {isa = PBXBuildFile; fileRef = A793DF5DBE38FA59A8178A560E1924AB /* CTMediator+HandyTools.m */; };
+		857314DF37370DB89253D17FD2DEA015 /* LKPlayerModuleCategory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B706BF90A51C6EA86F7145316321123B /* LKPlayerModuleCategory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85E852237B389D98F5348394C67BF004 /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8D8EC4BE7AD84FD885E9623238AC6A /* CTMediator-dummy.m */; };
+		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 285742896ED5D804A4E5E0ED666DD4D9 /* FBSnapshotTestController.m */; };
+		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A96B5566CE0130A2CE9000F9E7CC881 /* FBSnapshotTestCase.m */; };
+		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = B4AAA45610ECF4D974C989D2CD4C1F90 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C471CBF054429AB1E0291FD265C558 /* SwiftSupport.swift */; };
+		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FBDDBE3A0442A46873A05F4ADCBC69 /* UIImage+Snapshot.m */; };
+		B10084C646C18CDD101BF7B0E3E132B2 /* Pods-LKPlayerModuleCategory_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A741F03B6AED0125AE50A31EDC6B645 /* Pods-LKPlayerModuleCategory_Tests-dummy.m */; };
+		B623D8B678FA3C4E8E05BA9F192B7FA7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA066D58BBAAE5C78EC3A3FBF5A32C7 /* CoreGraphics.framework */; };
+		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 56EBE39FA3043689103EFF2A955A74E9 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BD4953074A12E769ED4E6C94F5E73694 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259472A006852EA03C4F965CF0417D3B /* UIKit.framework */; };
+		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AE41AAB2359940D559F4933356A73B0 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA63ADACAC6C2BF1E30108E6BEF68A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 086866648CD8DC0705AE707DCBBF7AFB /* Foundation.framework */; };
+		CED1493966C46CD3FD6EFF50828A2069 /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3677B150F1C418E37AFE42BDE5590925 /* CTMediator.framework */; };
+		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = ED24E2E47A3C823E7E60F4DE966422FC /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D321D58B992EAF9CD47C50E3C3E5D938 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 086866648CD8DC0705AE707DCBBF7AFB /* Foundation.framework */; };
+		DF2B87C2BBED5EC29F2666B5F2DDA648 /* CTMediator+LGPlayerModuleAction.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5184AC8B44644CF0643D2C5404AD33 /* CTMediator+LGPlayerModuleAction.m */; };
+		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F74343474DCC6AA58AEE415B9DC0035 /* FBSnapshotTestCasePlatform.m */; };
+		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 836D62059D44DB1324AC90181078C984 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F239A2DE650BCEA18912F0DDF143DB48 /* Pods-LKPlayerModuleCategory_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A6B9BF180B7D428454BAEE4A0DCB38 /* Pods-LKPlayerModuleCategory_Example-dummy.m */; };
+		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EB8F050C3767E1CFFA379B37F4BD07F /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D4AF5C6171BBBEFB74B5F86A05C4E34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
+			remoteInfo = CTMediator;
+		};
+		7C4873766E277CD1CF3CAC54A073D0A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		90C2C490383BDC7C68957138B1E76576 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8196A1434E0D6807A7143977BABBB0E1;
+			remoteInfo = LKPlayerModuleCategory;
+		};
+		9972CD6D2FE13390622CF0A3E803979C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBA103DED65D76C1785D05E0F0C14D69;
+			remoteInfo = "Pods-LKPlayerModuleCategory_Example";
+		};
+		9F9050E8BA3265A7079F9166F6BEE4A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
+			remoteInfo = CTMediator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07B398AFA20BAB70DC17CF90A6AB0FDA /* Pods-LKPlayerModuleCategory_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LKPlayerModuleCategory_Example.release.xcconfig"; sourceTree = "<group>"; };
+		086866648CD8DC0705AE707DCBBF7AFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		08EE101E2B6E27EAE8C73EC164563EF3 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		0A741F03B6AED0125AE50A31EDC6B645 /* Pods-LKPlayerModuleCategory_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LKPlayerModuleCategory_Tests-dummy.m"; sourceTree = "<group>"; };
+		0F2A3F318B6D6A9FFF5908CCAE010072 /* LKPlayerModuleCategory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LKPlayerModuleCategory.release.xcconfig; sourceTree = "<group>"; };
+		0F5ABAE5028B847B12F44244A8303F2A /* CTMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTMediator.modulemap; sourceTree = "<group>"; };
+		11A6B9BF180B7D428454BAEE4A0DCB38 /* Pods-LKPlayerModuleCategory_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LKPlayerModuleCategory_Example-dummy.m"; sourceTree = "<group>"; };
+		1A96B5566CE0130A2CE9000F9E7CC881 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		1BE54518F5ED1186AEF8F1996239E0F2 /* CTMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-umbrella.h"; sourceTree = "<group>"; };
+		2409E3355C56AEF23B1B0B406F76D95E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		259472A006852EA03C4F965CF0417D3B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		26C6AB10F1B9E26B29F9702E223E6319 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		285742896ED5D804A4E5E0ED666DD4D9 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		288FA0AC30AEA7E5ECAA25B138659C1A /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		29C5E4739011D717E0A2F3BBB89D5AF8 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		35FEE10E2BFA7AECCB2930BA66AFC889 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		3677B150F1C418E37AFE42BDE5590925 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38547A795DA342350D125E37FE4A6B4A /* LKPlayerModuleCategory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LKPlayerModuleCategory.debug.xcconfig; sourceTree = "<group>"; };
+		3AC93F3D25A8C3B6FA9D63D7F39FA486 /* LKPlayerModuleCategory-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LKPlayerModuleCategory-Info.plist"; sourceTree = "<group>"; };
+		3B42F3F1B113A35DDE47BF0D3ABBDC66 /* Pods-LKPlayerModuleCategory_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LKPlayerModuleCategory_Example.modulemap"; sourceTree = "<group>"; };
+		3F74343474DCC6AA58AEE415B9DC0035 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		46D36A4AF74A0E9F09B826AEE7992B29 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		47FE2E08249CFD7683F007FA564BA43C /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		503EF159A899B63984240AE9CA5B2A36 /* Pods-LKPlayerModuleCategory_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LKPlayerModuleCategory_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		54919C1C02A848690B1AE18B39F54AC6 /* Pods-LKPlayerModuleCategory_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LKPlayerModuleCategory_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		56EBE39FA3043689103EFF2A955A74E9 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		5764D4CD8C5C932CFE74873C272448EA /* Pods-LKPlayerModuleCategory_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LKPlayerModuleCategory_Tests.modulemap"; sourceTree = "<group>"; };
+		587E9D9870DB7DC1439F0B82845748EC /* CTMediator+LGPlayerModuleAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+LGPlayerModuleAction.h"; path = "LKPlayerModuleCategory/Classes/CTMediator+LGPlayerModuleAction.h"; sourceTree = "<group>"; };
+		5AE41AAB2359940D559F4933356A73B0 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F5677792A4B8BA417871A64F8F4D581 /* LKPlayerModuleCategory.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LKPlayerModuleCategory.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		608C82B0191C4C182A75FB14132B09A8 /* Pods-LKPlayerModuleCategory_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LKPlayerModuleCategory_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6269BC3AF416A27AFA82085FF3E4B5B5 /* Pods-LKPlayerModuleCategory_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LKPlayerModuleCategory_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6304B71F0A722538BB60A1F36C451C49 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediator.framework; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		727E1468978DB7E20FF7CE60ADD370F1 /* CTMediator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CTMediator-Info.plist"; sourceTree = "<group>"; };
+		7CCABC7DB096C79D1D3FCAE3A9B75D42 /* LKPlayerModuleCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LKPlayerModuleCategory-prefix.pch"; sourceTree = "<group>"; };
+		7EE6E62EFBFB360F527B9C5E17DF9DCC /* Pods-LKPlayerModuleCategory_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LKPlayerModuleCategory_Tests-Info.plist"; sourceTree = "<group>"; };
+		81CBE33A559E6B11EBCD08AFA8386FD6 /* LKPlayerModuleCategory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LKPlayerModuleCategory.modulemap; sourceTree = "<group>"; };
+		836D62059D44DB1324AC90181078C984 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		88D81A257474FD968E56CD945C53FC56 /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
+		8B04DC07A303D1289ACAF1F3192991B4 /* CTMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.release.xcconfig; sourceTree = "<group>"; };
+		8BCE32022BDBC52BD8442ADBA53EEAC5 /* CTMediator+HandyTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+HandyTools.h"; path = "CTMediator/CTMediator/CTMediator+HandyTools.h"; sourceTree = "<group>"; };
+		8C95CD9A31AC7891138366E4100FDC4E /* Pods_LKPlayerModuleCategory_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LKPlayerModuleCategory_Tests.framework; path = "Pods-LKPlayerModuleCategory_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9398336CC0D05BCEC1ABCDA48B4460C5 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
+		95CFDC301FC94033DAF9FBA40D699693 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		9BA066D58BBAAE5C78EC3A3FBF5A32C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EB8F050C3767E1CFFA379B37F4BD07F /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		9F8D8EC4BE7AD84FD885E9623238AC6A /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
+		A34FACC6667B09F327D7AB44CB4505EA /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
+		A793DF5DBE38FA59A8178A560E1924AB /* CTMediator+HandyTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+HandyTools.m"; path = "CTMediator/CTMediator/CTMediator+HandyTools.m"; sourceTree = "<group>"; };
+		AC02409344D2F20D181D40AC23656A36 /* LKPlayerModuleCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LKPlayerModuleCategory.framework; path = LKPlayerModuleCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4AAA45610ECF4D974C989D2CD4C1F90 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		B4E52487576799EEA05BC99A3F6222CB /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		B706BF90A51C6EA86F7145316321123B /* LKPlayerModuleCategory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LKPlayerModuleCategory-umbrella.h"; sourceTree = "<group>"; };
+		BB5184AC8B44644CF0643D2C5404AD33 /* CTMediator+LGPlayerModuleAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+LGPlayerModuleAction.m"; path = "LKPlayerModuleCategory/Classes/CTMediator+LGPlayerModuleAction.m"; sourceTree = "<group>"; };
+		BBE79765ACA12A66FD5B8FF588EB9713 /* Pods-LKPlayerModuleCategory_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LKPlayerModuleCategory_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BD74C114578DD11B0F2F3D56E033F7D9 /* Pods-LKPlayerModuleCategory_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LKPlayerModuleCategory_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C75F0EEF72538391ED22E44E0D195E7A /* Pods-LKPlayerModuleCategory_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LKPlayerModuleCategory_Example-Info.plist"; sourceTree = "<group>"; };
+		C92692B14EA20932663E544E8BED37B8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		C99B8BAE240E6AD125151B6837DEEAF0 /* LKPlayerModuleCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LKPlayerModuleCategory-dummy.m"; sourceTree = "<group>"; };
+		CFD3AAF5A93062BF4F49DCCA1B2BC86B /* Pods_LKPlayerModuleCategory_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LKPlayerModuleCategory_Example.framework; path = "Pods-LKPlayerModuleCategory_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33E3C5AC564ACCBCF7E054C56D38323 /* Pods-LKPlayerModuleCategory_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LKPlayerModuleCategory_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D497738E4700F1FE400EE926EDA1CEB7 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		E2373129D6DCC7FB2D0BA0F757639E09 /* Pods-LKPlayerModuleCategory_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LKPlayerModuleCategory_Example-umbrella.h"; sourceTree = "<group>"; };
+		E387275AF05723BB75F052DF44F24B5A /* CTMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.debug.xcconfig; sourceTree = "<group>"; };
+		E3C471CBF054429AB1E0291FD265C558 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		E3FCF630D0DF7AD9A6C9077973B0DDB0 /* Pods-LKPlayerModuleCategory_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LKPlayerModuleCategory_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E8FBDDBE3A0442A46873A05F4ADCBC69 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		ED24E2E47A3C823E7E60F4DE966422FC /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		F21FB4A5C776E7A7AEE1F5DC13CBBA2E /* Pods-LKPlayerModuleCategory_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LKPlayerModuleCategory_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F8A0552F52898EAC03E58C9B01D432D6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FC190FBCDF81D0225A3B8052FD8A9AD7 /* Pods-LKPlayerModuleCategory_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LKPlayerModuleCategory_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FC32285C495EA559E23A733A77E897E8 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		947F4012C8256C6B14B9A27FD758A49D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6343ABE577A5F983E724C607CD973BB6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C235D428CC9DE800CF9527A8D203AD1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED1493966C46CD3FD6EFF50828A2069 /* CTMediator.framework in Frameworks */,
+				D321D58B992EAF9CD47C50E3C3E5D938 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49F77C320AB1DB55D2B827CF850D9A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B623D8B678FA3C4E8E05BA9F192B7FA7 /* CoreGraphics.framework in Frameworks */,
+				69B61193218731833D94A63CD9010166 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E581515110D66F94F80A6937831489A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA63ADACAC6C2BF1E30108E6BEF68A09 /* Foundation.framework in Frameworks */,
+				2E4C0BD2363ABABB6470FBA5415985AA /* QuartzCore.framework in Frameworks */,
+				BD4953074A12E769ED4E6C94F5E73694 /* UIKit.framework in Frameworks */,
+				121439AB6B4061E1B6222256817548FA /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F622FDE52729C896016319C83E6D2A6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EC69265082EFA1914B938306F64E257 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034DF4354ACC86D77F903456555B9DFF /* Pods-LKPlayerModuleCategory_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5764D4CD8C5C932CFE74873C272448EA /* Pods-LKPlayerModuleCategory_Tests.modulemap */,
+				608C82B0191C4C182A75FB14132B09A8 /* Pods-LKPlayerModuleCategory_Tests-acknowledgements.markdown */,
+				6269BC3AF416A27AFA82085FF3E4B5B5 /* Pods-LKPlayerModuleCategory_Tests-acknowledgements.plist */,
+				0A741F03B6AED0125AE50A31EDC6B645 /* Pods-LKPlayerModuleCategory_Tests-dummy.m */,
+				BD74C114578DD11B0F2F3D56E033F7D9 /* Pods-LKPlayerModuleCategory_Tests-frameworks.sh */,
+				7EE6E62EFBFB360F527B9C5E17DF9DCC /* Pods-LKPlayerModuleCategory_Tests-Info.plist */,
+				FC190FBCDF81D0225A3B8052FD8A9AD7 /* Pods-LKPlayerModuleCategory_Tests-umbrella.h */,
+				54919C1C02A848690B1AE18B39F54AC6 /* Pods-LKPlayerModuleCategory_Tests.debug.xcconfig */,
+				503EF159A899B63984240AE9CA5B2A36 /* Pods-LKPlayerModuleCategory_Tests.release.xcconfig */,
+			);
+			name = "Pods-LKPlayerModuleCategory_Tests";
+			path = "Target Support Files/Pods-LKPlayerModuleCategory_Tests";
+			sourceTree = "<group>";
+		};
+		0F954F166033FE84F2D5D9790BEF19B4 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				E4EE7A468F11404EEF174BE9A1F8E8B3 /* Core */,
+				824FD81A57A81CABFB2961D790D9E371 /* Support Files */,
+				174BF4BC467C3A3E06DD546C634B0EF5 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		174BF4BC467C3A3E06DD546C634B0EF5 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				E3C471CBF054429AB1E0291FD265C558 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		281D764AAFA1114ED153EE8CC2E9E869 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				81CBE33A559E6B11EBCD08AFA8386FD6 /* LKPlayerModuleCategory.modulemap */,
+				C99B8BAE240E6AD125151B6837DEEAF0 /* LKPlayerModuleCategory-dummy.m */,
+				3AC93F3D25A8C3B6FA9D63D7F39FA486 /* LKPlayerModuleCategory-Info.plist */,
+				7CCABC7DB096C79D1D3FCAE3A9B75D42 /* LKPlayerModuleCategory-prefix.pch */,
+				B706BF90A51C6EA86F7145316321123B /* LKPlayerModuleCategory-umbrella.h */,
+				38547A795DA342350D125E37FE4A6B4A /* LKPlayerModuleCategory.debug.xcconfig */,
+				0F2A3F318B6D6A9FFF5908CCAE010072 /* LKPlayerModuleCategory.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LKPlayerModuleCategory";
+			sourceTree = "<group>";
+		};
+		322556FA5FEF8D34AAAD0EBD0887900E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F5ABAE5028B847B12F44244A8303F2A /* CTMediator.modulemap */,
+				9F8D8EC4BE7AD84FD885E9623238AC6A /* CTMediator-dummy.m */,
+				727E1468978DB7E20FF7CE60ADD370F1 /* CTMediator-Info.plist */,
+				88D81A257474FD968E56CD945C53FC56 /* CTMediator-prefix.pch */,
+				1BE54518F5ED1186AEF8F1996239E0F2 /* CTMediator-umbrella.h */,
+				E387275AF05723BB75F052DF44F24B5A /* CTMediator.debug.xcconfig */,
+				8B04DC07A303D1289ACAF1F3192991B4 /* CTMediator.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CTMediator";
+			sourceTree = "<group>";
+		};
+		718BE359E611EABB1026B03B5BAE3B42 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C19B981ED99AEA02E85B1E867C36B52 /* Pods-LKPlayerModuleCategory_Example */,
+				034DF4354ACC86D77F903456555B9DFF /* Pods-LKPlayerModuleCategory_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		75EBF9AAC6B9D3EF4984016D8B96B304 /* LKPlayerModuleCategory */ = {
+			isa = PBXGroup;
+			children = (
+				587E9D9870DB7DC1439F0B82845748EC /* CTMediator+LGPlayerModuleAction.h */,
+				BB5184AC8B44644CF0643D2C5404AD33 /* CTMediator+LGPlayerModuleAction.m */,
+				8F902D6D7E1F5731F67D2B294BF79D85 /* Pod */,
+				281D764AAFA1114ED153EE8CC2E9E869 /* Support Files */,
+			);
+			name = LKPlayerModuleCategory;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		824FD81A57A81CABFB2961D790D9E371 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				35FEE10E2BFA7AECCB2930BA66AFC889 /* FBSnapshotTestCase.modulemap */,
+				47FE2E08249CFD7683F007FA564BA43C /* FBSnapshotTestCase-dummy.m */,
+				D497738E4700F1FE400EE926EDA1CEB7 /* FBSnapshotTestCase-Info.plist */,
+				FC32285C495EA559E23A733A77E897E8 /* FBSnapshotTestCase-prefix.pch */,
+				9EB8F050C3767E1CFFA379B37F4BD07F /* FBSnapshotTestCase-umbrella.h */,
+				288FA0AC30AEA7E5ECAA25B138659C1A /* FBSnapshotTestCase.debug.xcconfig */,
+				08EE101E2B6E27EAE8C73EC164563EF3 /* FBSnapshotTestCase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		8F902D6D7E1F5731F67D2B294BF79D85 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F8A0552F52898EAC03E58C9B01D432D6 /* LICENSE */,
+				5F5677792A4B8BA417871A64F8F4D581 /* LKPlayerModuleCategory.podspec */,
+				6304B71F0A722538BB60A1F36C451C49 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9C19B981ED99AEA02E85B1E867C36B52 /* Pods-LKPlayerModuleCategory_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3B42F3F1B113A35DDE47BF0D3ABBDC66 /* Pods-LKPlayerModuleCategory_Example.modulemap */,
+				F21FB4A5C776E7A7AEE1F5DC13CBBA2E /* Pods-LKPlayerModuleCategory_Example-acknowledgements.markdown */,
+				BBE79765ACA12A66FD5B8FF588EB9713 /* Pods-LKPlayerModuleCategory_Example-acknowledgements.plist */,
+				11A6B9BF180B7D428454BAEE4A0DCB38 /* Pods-LKPlayerModuleCategory_Example-dummy.m */,
+				E3FCF630D0DF7AD9A6C9077973B0DDB0 /* Pods-LKPlayerModuleCategory_Example-frameworks.sh */,
+				C75F0EEF72538391ED22E44E0D195E7A /* Pods-LKPlayerModuleCategory_Example-Info.plist */,
+				E2373129D6DCC7FB2D0BA0F757639E09 /* Pods-LKPlayerModuleCategory_Example-umbrella.h */,
+				D33E3C5AC564ACCBCF7E054C56D38323 /* Pods-LKPlayerModuleCategory_Example.debug.xcconfig */,
+				07B398AFA20BAB70DC17CF90A6AB0FDA /* Pods-LKPlayerModuleCategory_Example.release.xcconfig */,
+			);
+			name = "Pods-LKPlayerModuleCategory_Example";
+			path = "Target Support Files/Pods-LKPlayerModuleCategory_Example";
+			sourceTree = "<group>";
+		};
+		B9F30D26C4A3EF485329F8E19EAFFC92 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9BA066D58BBAAE5C78EC3A3FBF5A32C7 /* CoreGraphics.framework */,
+				086866648CD8DC0705AE707DCBBF7AFB /* Foundation.framework */,
+				C92692B14EA20932663E544E8BED37B8 /* QuartzCore.framework */,
+				259472A006852EA03C4F965CF0417D3B /* UIKit.framework */,
+				46D36A4AF74A0E9F09B826AEE7992B29 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BD1C4A0BAB86E7087005D053B59B8010 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D20D9C7A9A8B1E86FD7A4D8323C49746 /* CTMediator */,
+				0F954F166033FE84F2D5D9790BEF19B4 /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D1418EBA18E4F617DE02741F29E84EF1 /* Development Pods */,
+				F601FDAD331C0BEF23D9CA1B011AFC5C /* Frameworks */,
+				BD1C4A0BAB86E7087005D053B59B8010 /* Pods */,
+				E47C746A217FF93714DF5F15466AAAD0 /* Products */,
+				718BE359E611EABB1026B03B5BAE3B42 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1418EBA18E4F617DE02741F29E84EF1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75EBF9AAC6B9D3EF4984016D8B96B304 /* LKPlayerModuleCategory */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D20D9C7A9A8B1E86FD7A4D8323C49746 /* CTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				9398336CC0D05BCEC1ABCDA48B4460C5 /* CTMediator.h */,
+				A34FACC6667B09F327D7AB44CB4505EA /* CTMediator.m */,
+				8BCE32022BDBC52BD8442ADBA53EEAC5 /* CTMediator+HandyTools.h */,
+				A793DF5DBE38FA59A8178A560E1924AB /* CTMediator+HandyTools.m */,
+				322556FA5FEF8D34AAAD0EBD0887900E /* Support Files */,
+			);
+			name = CTMediator;
+			path = CTMediator;
+			sourceTree = "<group>";
+		};
+		E47C746A217FF93714DF5F15466AAAD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */,
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				AC02409344D2F20D181D40AC23656A36 /* LKPlayerModuleCategory.framework */,
+				CFD3AAF5A93062BF4F49DCCA1B2BC86B /* Pods_LKPlayerModuleCategory_Example.framework */,
+				8C95CD9A31AC7891138366E4100FDC4E /* Pods_LKPlayerModuleCategory_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4EE7A468F11404EEF174BE9A1F8E8B3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				26C6AB10F1B9E26B29F9702E223E6319 /* FBSnapshotTestCase.h */,
+				1A96B5566CE0130A2CE9000F9E7CC881 /* FBSnapshotTestCase.m */,
+				5AE41AAB2359940D559F4933356A73B0 /* FBSnapshotTestCasePlatform.h */,
+				3F74343474DCC6AA58AEE415B9DC0035 /* FBSnapshotTestCasePlatform.m */,
+				B4AAA45610ECF4D974C989D2CD4C1F90 /* FBSnapshotTestController.h */,
+				285742896ED5D804A4E5E0ED666DD4D9 /* FBSnapshotTestController.m */,
+				B4E52487576799EEA05BC99A3F6222CB /* UIApplication+StrictKeyWindow.h */,
+				29C5E4739011D717E0A2F3BBB89D5AF8 /* UIApplication+StrictKeyWindow.m */,
+				836D62059D44DB1324AC90181078C984 /* UIImage+Compare.h */,
+				2409E3355C56AEF23B1B0B406F76D95E /* UIImage+Compare.m */,
+				ED24E2E47A3C823E7E60F4DE966422FC /* UIImage+Diff.h */,
+				95CFDC301FC94033DAF9FBA40D699693 /* UIImage+Diff.m */,
+				56EBE39FA3043689103EFF2A955A74E9 /* UIImage+Snapshot.h */,
+				E8FBDDBE3A0442A46873A05F4ADCBC69 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		F601FDAD331C0BEF23D9CA1B011AFC5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3677B150F1C418E37AFE42BDE5590925 /* CTMediator.framework */,
+				B9F30D26C4A3EF485329F8E19EAFFC92 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		115E7C8ACA06CBE361419777676B9C48 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A3A726BA37ACDC43642F29A8E1B60BA /* CTMediator+HandyTools.h in Headers */,
+				3B94BEF000168E07EAC82C7A25A21458 /* CTMediator-umbrella.h in Headers */,
+				4F58E17DAF09A3035A146DDDDFEFE84B /* CTMediator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		216A7616C9CC116F5741A041610E25CE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C695FFACB7E3CF02E4E541D46B904D /* CTMediator+LGPlayerModuleAction.h in Headers */,
+				857314DF37370DB89253D17FD2DEA015 /* LKPlayerModuleCategory-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */,
+				C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */,
+				90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */,
+				40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */,
+				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
+				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
+				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70B3697EA5FA33CDAD169B5696605550 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAF457DD1C5FDC4DCD144E3EC47879F /* Pods-LKPlayerModuleCategory_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		910C1BE4E17C91FBEE988EA05262307E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				159F8413E2887A37C612FED4BC651394 /* Pods-LKPlayerModuleCategory_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0457E9249CBF11B87DB7DEEDF0DB2C /* Build configuration list for PBXNativeTarget "CTMediator" */;
+			buildPhases = (
+				115E7C8ACA06CBE361419777676B9C48 /* Headers */,
+				F699361B098428FA5FA9F768BF848938 /* Sources */,
+				C49F77C320AB1DB55D2B827CF850D9A6 /* Frameworks */,
+				A697C861232D981D33BAA24BF4F99825 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTMediator;
+			productName = CTMediator;
+			productReference = 68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6C66BF47E1635F7E80E88E1C322FE8D2 /* Pods-LKPlayerModuleCategory_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B33BE243A1B0178C076D38D49DF0D9C /* Build configuration list for PBXNativeTarget "Pods-LKPlayerModuleCategory_Tests" */;
+			buildPhases = (
+				910C1BE4E17C91FBEE988EA05262307E /* Headers */,
+				2D0ED1E0B8B965630FA18A61AC8D3A66 /* Sources */,
+				F622FDE52729C896016319C83E6D2A6D /* Frameworks */,
+				C3788CCCFAA9C30867188F0580503FCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F907A2C1B06B0F5E731D8901345B950E /* PBXTargetDependency */,
+				EA4DED09BD74AC207D6AA0216595AD8A /* PBXTargetDependency */,
+			);
+			name = "Pods-LKPlayerModuleCategory_Tests";
+			productName = "Pods-LKPlayerModuleCategory_Tests";
+			productReference = 8C95CD9A31AC7891138366E4100FDC4E /* Pods_LKPlayerModuleCategory_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8196A1434E0D6807A7143977BABBB0E1 /* LKPlayerModuleCategory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184313CB8AE01BFF6EF2017874D70FAD /* Build configuration list for PBXNativeTarget "LKPlayerModuleCategory" */;
+			buildPhases = (
+				216A7616C9CC116F5741A041610E25CE /* Headers */,
+				743D4BD7D026939BE658D5D344336D72 /* Sources */,
+				C235D428CC9DE800CF9527A8D203AD1B /* Frameworks */,
+				DD20F38669B72E4AEE713A126F87E729 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBD6EE8AC8538804EE3FE4F3EB0A716D /* PBXTargetDependency */,
+			);
+			name = LKPlayerModuleCategory;
+			productName = LKPlayerModuleCategory;
+			productReference = AC02409344D2F20D181D40AC23656A36 /* LKPlayerModuleCategory.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */,
+				A48201AC594B2E6B09C0EE0396BC1377 /* Sources */,
+				E581515110D66F94F80A6937831489A1 /* Frameworks */,
+				5CC655F1A6C7A45A9693160581076BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FBA103DED65D76C1785D05E0F0C14D69 /* Pods-LKPlayerModuleCategory_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05D48CC6B7D1275B694449356B1E44E8 /* Build configuration list for PBXNativeTarget "Pods-LKPlayerModuleCategory_Example" */;
+			buildPhases = (
+				70B3697EA5FA33CDAD169B5696605550 /* Headers */,
+				902AC727FDF4C029E6F4CD178DEF5D44 /* Sources */,
+				947F4012C8256C6B14B9A27FD758A49D /* Frameworks */,
+				57C8ECB536F83CEE58BF4974AE3DC463 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A13BE6CFBDAD0C8B7F252C8C866EA98 /* PBXTargetDependency */,
+				45BB9102FFAB36CEECF35E440440A8B8 /* PBXTargetDependency */,
+			);
+			name = "Pods-LKPlayerModuleCategory_Example";
+			productName = "Pods-LKPlayerModuleCategory_Example";
+			productReference = CFD3AAF5A93062BF4F49DCCA1B2BC86B /* Pods_LKPlayerModuleCategory_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E47C746A217FF93714DF5F15466AAAD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */,
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				8196A1434E0D6807A7143977BABBB0E1 /* LKPlayerModuleCategory */,
+				FBA103DED65D76C1785D05E0F0C14D69 /* Pods-LKPlayerModuleCategory_Example */,
+				6C66BF47E1635F7E80E88E1C322FE8D2 /* Pods-LKPlayerModuleCategory_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57C8ECB536F83CEE58BF4974AE3DC463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A697C861232D981D33BAA24BF4F99825 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3788CCCFAA9C30867188F0580503FCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD20F38669B72E4AEE713A126F87E729 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D0ED1E0B8B965630FA18A61AC8D3A66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10084C646C18CDD101BF7B0E3E132B2 /* Pods-LKPlayerModuleCategory_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		743D4BD7D026939BE658D5D344336D72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF2B87C2BBED5EC29F2666B5F2DDA648 /* CTMediator+LGPlayerModuleAction.m in Sources */,
+				3E92B098DED7538301BCEADAB778BDDB /* LKPlayerModuleCategory-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902AC727FDF4C029E6F4CD178DEF5D44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F239A2DE650BCEA18912F0DDF143DB48 /* Pods-LKPlayerModuleCategory_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
+				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
+				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
+				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
+				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
+				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
+				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
+				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
+				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F699361B098428FA5FA9F768BF848938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F6DE10E33BD76C9B226D73463E9AA8B /* CTMediator+HandyTools.m in Sources */,
+				85E852237B389D98F5348394C67BF004 /* CTMediator-dummy.m in Sources */,
+				4731D4CB78576EAD3C461B2602EEF905 /* CTMediator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A13BE6CFBDAD0C8B7F252C8C866EA98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
+			targetProxy = 9F9050E8BA3265A7079F9166F6BEE4A7 /* PBXContainerItemProxy */;
+		};
+		45BB9102FFAB36CEECF35E440440A8B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LKPlayerModuleCategory;
+			target = 8196A1434E0D6807A7143977BABBB0E1 /* LKPlayerModuleCategory */;
+			targetProxy = 90C2C490383BDC7C68957138B1E76576 /* PBXContainerItemProxy */;
+		};
+		CBD6EE8AC8538804EE3FE4F3EB0A716D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
+			targetProxy = 3D4AF5C6171BBBEFB74B5F86A05C4E34 /* PBXContainerItemProxy */;
+		};
+		EA4DED09BD74AC207D6AA0216595AD8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LKPlayerModuleCategory_Example";
+			target = FBA103DED65D76C1785D05E0F0C14D69 /* Pods-LKPlayerModuleCategory_Example */;
+			targetProxy = 9972CD6D2FE13390622CF0A3E803979C /* PBXContainerItemProxy */;
+		};
+		F907A2C1B06B0F5E731D8901345B950E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = 7C4873766E277CD1CF3CAC54A073D0A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C04C08215320E43F84D93E62D822E73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E387275AF05723BB75F052DF44F24B5A /* CTMediator.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediator/CTMediator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
+				PRODUCT_MODULE_NAME = CTMediator;
+				PRODUCT_NAME = CTMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		254A4D490F71B0D083DB91353A3D86E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38547A795DA342350D125E37FE4A6B4A /* LKPlayerModuleCategory.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LKPlayerModuleCategory/LKPlayerModuleCategory-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LKPlayerModuleCategory/LKPlayerModuleCategory-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LKPlayerModuleCategory/LKPlayerModuleCategory.modulemap";
+				PRODUCT_MODULE_NAME = LKPlayerModuleCategory;
+				PRODUCT_NAME = LKPlayerModuleCategory;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		33AAA254991DCBCE4BE40AF880D6DD4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54919C1C02A848690B1AE18B39F54AC6 /* Pods-LKPlayerModuleCategory_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LKPlayerModuleCategory_Tests/Pods-LKPlayerModuleCategory_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LKPlayerModuleCategory_Tests/Pods-LKPlayerModuleCategory_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3E39A517897BFCDD1DD7268CB1B69BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 288FA0AC30AEA7E5ECAA25B138659C1A /* FBSnapshotTestCase.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4CDE89B3DBAE0E731ACBABECD3909907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07B398AFA20BAB70DC17CF90A6AB0FDA /* Pods-LKPlayerModuleCategory_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LKPlayerModuleCategory_Example/Pods-LKPlayerModuleCategory_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LKPlayerModuleCategory_Example/Pods-LKPlayerModuleCategory_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		618826226305BD53F56A5323729A485F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F2A3F318B6D6A9FFF5908CCAE010072 /* LKPlayerModuleCategory.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LKPlayerModuleCategory/LKPlayerModuleCategory-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LKPlayerModuleCategory/LKPlayerModuleCategory-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LKPlayerModuleCategory/LKPlayerModuleCategory.modulemap";
+				PRODUCT_MODULE_NAME = LKPlayerModuleCategory;
+				PRODUCT_NAME = LKPlayerModuleCategory;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE6CB77A83F74338508788FD7EA5371D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D33E3C5AC564ACCBCF7E054C56D38323 /* Pods-LKPlayerModuleCategory_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LKPlayerModuleCategory_Example/Pods-LKPlayerModuleCategory_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LKPlayerModuleCategory_Example/Pods-LKPlayerModuleCategory_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BF531801B332EDF71FA8F4F9667B86BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08EE101E2B6E27EAE8C73EC164563EF3 /* FBSnapshotTestCase.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D15E7D1098E5B446585892AE063F6A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B04DC07A303D1289ACAF1F3192991B4 /* CTMediator.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediator/CTMediator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
+				PRODUCT_MODULE_NAME = CTMediator;
+				PRODUCT_NAME = CTMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F97059CA96A59FB8E772CA9C3FB23E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 503EF159A899B63984240AE9CA5B2A36 /* Pods-LKPlayerModuleCategory_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LKPlayerModuleCategory_Tests/Pods-LKPlayerModuleCategory_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LKPlayerModuleCategory_Tests/Pods-LKPlayerModuleCategory_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05D48CC6B7D1275B694449356B1E44E8 /* Build configuration list for PBXNativeTarget "Pods-LKPlayerModuleCategory_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE6CB77A83F74338508788FD7EA5371D /* Debug */,
+				4CDE89B3DBAE0E731ACBABECD3909907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184313CB8AE01BFF6EF2017874D70FAD /* Build configuration list for PBXNativeTarget "LKPlayerModuleCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				254A4D490F71B0D083DB91353A3D86E7 /* Debug */,
+				618826226305BD53F56A5323729A485F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B33BE243A1B0178C076D38D49DF0D9C /* Build configuration list for PBXNativeTarget "Pods-LKPlayerModuleCategory_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33AAA254991DCBCE4BE40AF880D6DD4F /* Debug */,
+				F97059CA96A59FB8E772CA9C3FB23E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E39A517897BFCDD1DD7268CB1B69BE9 /* Debug */,
+				BF531801B332EDF71FA8F4F9667B86BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE0457E9249CBF11B87DB7DEEDF0DB2C /* Build configuration list for PBXNativeTarget "CTMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C04C08215320E43F84D93E62D822E73 /* Debug */,
+				D15E7D1098E5B446585892AE063F6A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

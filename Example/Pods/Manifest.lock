@@ -1,0 +1,31 @@
+PODS:
+  - CTMediator (46)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LKPlayerModuleCategory (1):
+    - CTMediator
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LKPlayerModuleCategory (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - CTMediator
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  LKPlayerModuleCategory:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CTMediator: f1cf58d509fb3192086c367711f039efd769b907
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LKPlayerModuleCategory: 11ee881bb7f271f7bfc0cc829d263bb5f590abd2
+
+PODFILE CHECKSUM: 7397fd9fd09a2448b6db01747a528501ffc7b323
+
+COCOAPODS: 1.10.1

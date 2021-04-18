@@ -60,12 +60,12 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7243494FFC36037AF3D1B940 /* Pods_LKPlayerModuleCategory_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LKPlayerModuleCategory_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7762D0FB37AB8A8091363F69 /* LKPlayerModuleCategory.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LKPlayerModuleCategory.podspec; path = ../LKPlayerModuleCategory.podspec; sourceTree = "<group>"; };
-		7CD7AF0F1B57D0D3D3A10FA7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7762D0FB37AB8A8091363F69 /* LKPlayerModuleCategory.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LKPlayerModuleCategory.podspec; path = ../LKPlayerModuleCategory.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7CD7AF0F1B57D0D3D3A10FA7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88D64C58F2582827176CA7E3 /* Pods_LKPlayerModuleCategory_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LKPlayerModuleCategory_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9CC7A316154CD6CBDC4049C /* Pods-LKPlayerModuleCategory_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKPlayerModuleCategory_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LKPlayerModuleCategory_Tests/Pods-LKPlayerModuleCategory_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CC430BFF1532C12F34EBE8F5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CC430BFF1532C12F34EBE8F5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D7B1F763E6587B502D0E34E0 /* Pods-LKPlayerModuleCategory_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKPlayerModuleCategory_Example.release.xcconfig"; path = "Target Support Files/Pods-LKPlayerModuleCategory_Example/Pods-LKPlayerModuleCategory_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				B9CC7A316154CD6CBDC4049C /* Pods-LKPlayerModuleCategory_Tests.debug.xcconfig */,
 				34D8EB2BB0EA9E0CA10D8FCB /* Pods-LKPlayerModuleCategory_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -347,10 +347,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LKPlayerModuleCategory_Example/Pods-LKPlayerModuleCategory_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
 				"${BUILT_PRODUCTS_DIR}/LKPlayerModuleCategory/LKPlayerModuleCategory.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LKPlayerModuleCategory.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
